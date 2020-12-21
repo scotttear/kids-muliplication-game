@@ -5,7 +5,7 @@
   --ocean-blue: #5a6aba;
   --magenta: #c211a3;
   --lime: #00ef00;
-  --max-width: 640px;
+  --max-width: 420px;
   --module-padding: 20px;
 }
 
@@ -39,10 +39,10 @@ body {
 
   &__title {
     color: var(--off-white);
-    font-size: 24px;
+    font-size: 22px;
 
     @media only screen and (min-width: $mq-medium) {
-      font-size: 32px;
+      font-size: 28px;
     } 
   }
 }
@@ -84,7 +84,7 @@ body {
     display: flex;
     justify-content: center;
     justify-self: stretch;
-    min-height: 150px;
+    min-height: 90px;
   }
 
   &__column--highlight {
